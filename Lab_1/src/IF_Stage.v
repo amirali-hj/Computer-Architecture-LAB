@@ -35,7 +35,7 @@ module IF_Stage (
     );
 
     dist_mem_gen_0 inst_mem_ip (
-        .a(PC[31:0]),      
+        .a(PC[10:0]),      
         .spo(Instruction) 
     );
 
