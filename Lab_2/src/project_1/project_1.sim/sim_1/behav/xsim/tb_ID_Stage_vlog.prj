@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../" \
+"../../../../../ID_EXE_Reg.v" \
+"../../../../../ID_Stage.v" \
+"../../../../../MUX.v" \
+"../../../../../RegisterFile.v" \
+"../../../../../condition_Check.v" \
+"../../../../../control_unit.v" \
+"../../../../../tb_ID_Stage.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

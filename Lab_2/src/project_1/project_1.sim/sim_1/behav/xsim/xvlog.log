@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Computer-Architecture-LAB/Lab_1/src/ID_EXE_Reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EXE_Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Computer-Architecture-LAB/Lab_1/src/ID_Stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_Stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Computer-Architecture-LAB/Lab_1/src/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+WARNING: [VRFC 10-3380] identifier 'WIDTH' is used before its declaration [C:/Computer-Architecture-LAB/Lab_1/src/MUX.v:2]
+WARNING: [VRFC 10-3380] identifier 'WIDTH' is used before its declaration [C:/Computer-Architecture-LAB/Lab_1/src/MUX.v:4]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Computer-Architecture-LAB/Lab_1/src/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Computer-Architecture-LAB/Lab_1/src/condition_Check.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module condition_Check
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Computer-Architecture-LAB/Lab_1/src/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Computer-Architecture-LAB/Lab_1/src/tb_ID_Stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_ID_Stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Computer-Architecture-LAB/Lab_1/src/project_1/project_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

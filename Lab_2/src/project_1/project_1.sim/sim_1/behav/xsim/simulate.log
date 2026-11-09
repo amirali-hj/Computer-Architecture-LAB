@@ -1,0 +1,4 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+PASS: all 18 spreadsheet vectors and ID/EXE outputs
+$finish called at time : 386 ns : File "C:/Computer-Architecture-LAB/Lab_1/src/tb_ID_Stage.v" Line 204

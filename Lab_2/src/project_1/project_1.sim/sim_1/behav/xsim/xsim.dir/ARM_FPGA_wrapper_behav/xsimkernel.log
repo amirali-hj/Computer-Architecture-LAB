@@ -1,0 +1,7 @@
+Running: xsim.dir/ARM_FPGA_wrapper_behav/xsimk.exe -simmode gui -wdb ARM_FPGA_wrapper_behav.wdb -simrunnum 0 -socket 57765
+Design successfully loaded
+Design Loading Memory Usage: 8704 KB (Peak: 8704 KB)
+Design Loading CPU Usage: 78 ms
+Simulation completed
+Simulation Memory Usage: 9640 KB (Peak: 9640 KB)
+Simulation CPU Usage: 155 ms

@@ -1,0 +1,26 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 4b2634932b16440ea3cbb9282ce25089 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_ID_Stage_behav xil_defaultlib.tb_ID_Stage xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Computer-Architecture-LAB/Lab_1/src/ID_Stage.v" Line 1. Module ID_Stage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Computer-Architecture-LAB/Lab_1/src/MUX.v" Line 1. Module MUX(WIDTH=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Computer-Architecture-LAB/Lab_1/src/RegisterFile.v" Line 1. Module RegisterFile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Computer-Architecture-LAB/Lab_1/src/control_unit.v" Line 2. Module control_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Computer-Architecture-LAB/Lab_1/src/condition_Check.v" Line 1. Module condition_Check doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Computer-Architecture-LAB/Lab_1/src/MUX.v" Line 1. Module MUX(WIDTH=9) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Computer-Architecture-LAB/Lab_1/src/ID_EXE_Reg.v" Line 1. Module ID_EXE_Reg doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.MUX(WIDTH=4)
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.condition_Check
+Compiling module xil_defaultlib.MUX(WIDTH=9)
+Compiling module xil_defaultlib.ID_Stage
+Compiling module xil_defaultlib.ID_EXE_Reg
+Compiling module xil_defaultlib.tb_ID_Stage
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_ID_Stage_behav

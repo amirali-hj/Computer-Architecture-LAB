@@ -1,0 +1,1 @@
+-wto "4b2634932b16440ea3cbb9282ce25089" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "dist_mem_gen_v8_0_12" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "ARM_FPGA_wrapper_behav" "xil_defaultlib.ARM_FPGA_wrapper" "xil_defaultlib.glbl" -log "elaborate.log" 

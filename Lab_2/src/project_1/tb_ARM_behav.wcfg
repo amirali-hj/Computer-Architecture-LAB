@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_ID_Stage_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_ID_Stage" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="183022443fs"></ZoomEndTime>
+      <Cursor1Time time="29350000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="368"></NameColumnWidth>
+      <ValueColumnWidth column_width="554"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="46" />
+   <wvobject fp_name="/tb_ID_Stage/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/Hazard" type="logic">
+      <obj_property name="ElementShortName">Hazard</obj_property>
+      <obj_property name="ObjectShortName">Hazard</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/writeBackEN" type="logic">
+      <obj_property name="ElementShortName">writeBackEN</obj_property>
+      <obj_property name="ObjectShortName">writeBackEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/PC_in" type="array">
+      <obj_property name="ElementShortName">PC_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/Instruction" type="array">
+      <obj_property name="ElementShortName">Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/Result_WB" type="array">
+      <obj_property name="ElementShortName">Result_WB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Result_WB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/SR" type="array">
+      <obj_property name="ElementShortName">SR[3:0]</obj_property>
+      <obj_property name="ObjectShortName">SR[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/Dest_WB" type="array">
+      <obj_property name="ElementShortName">Dest_WB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Dest_WB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/B" type="logic">
+      <obj_property name="ElementShortName">B</obj_property>
+      <obj_property name="ObjectShortName">B</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/S" type="logic">
+      <obj_property name="ElementShortName">S</obj_property>
+      <obj_property name="ObjectShortName">S</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/imm" type="logic">
+      <obj_property name="ElementShortName">imm</obj_property>
+      <obj_property name="ObjectShortName">imm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/WB_EN" type="logic">
+      <obj_property name="ElementShortName">WB_EN</obj_property>
+      <obj_property name="ObjectShortName">WB_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/Two_src" type="logic">
+      <obj_property name="ElementShortName">Two_src</obj_property>
+      <obj_property name="ObjectShortName">Two_src</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/MEM_W_EN" type="logic">
+      <obj_property name="ElementShortName">MEM_W_EN</obj_property>
+      <obj_property name="ObjectShortName">MEM_W_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/MEM_R_EN" type="logic">
+      <obj_property name="ElementShortName">MEM_R_EN</obj_property>
+      <obj_property name="ObjectShortName">MEM_R_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/Dest" type="array">
+      <obj_property name="ElementShortName">Dest[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Dest[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/EXE_CMD" type="array">
+      <obj_property name="ElementShortName">EXE_CMD[3:0]</obj_property>
+      <obj_property name="ObjectShortName">EXE_CMD[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/src_1" type="array">
+      <obj_property name="ElementShortName">src_1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">src_1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/src_2" type="array">
+      <obj_property name="ElementShortName">src_2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">src_2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/Shift_operand" type="array">
+      <obj_property name="ElementShortName">Shift_operand[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Shift_operand[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/Signed_imm_24" type="array">
+      <obj_property name="ElementShortName">Signed_imm_24[23:0]</obj_property>
+      <obj_property name="ObjectShortName">Signed_imm_24[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/Val_Rn" type="array">
+      <obj_property name="ElementShortName">Val_Rn[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Val_Rn[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/Val_Rm" type="array">
+      <obj_property name="ElementShortName">Val_Rm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Val_Rm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/q_PC" type="array">
+      <obj_property name="ElementShortName">q_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/q_B" type="logic">
+      <obj_property name="ElementShortName">q_B</obj_property>
+      <obj_property name="ObjectShortName">q_B</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/q_S" type="logic">
+      <obj_property name="ElementShortName">q_S</obj_property>
+      <obj_property name="ObjectShortName">q_S</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/q_imm" type="logic">
+      <obj_property name="ElementShortName">q_imm</obj_property>
+      <obj_property name="ObjectShortName">q_imm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/q_WB_EN" type="logic">
+      <obj_property name="ElementShortName">q_WB_EN</obj_property>
+      <obj_property name="ObjectShortName">q_WB_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/q_Two_src" type="logic">
+      <obj_property name="ElementShortName">q_Two_src</obj_property>
+      <obj_property name="ObjectShortName">q_Two_src</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/q_MEM_W_EN" type="logic">
+      <obj_property name="ElementShortName">q_MEM_W_EN</obj_property>
+      <obj_property name="ObjectShortName">q_MEM_W_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/q_MEM_R_EN" type="logic">
+      <obj_property name="ElementShortName">q_MEM_R_EN</obj_property>
+      <obj_property name="ObjectShortName">q_MEM_R_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/q_Dest" type="array">
+      <obj_property name="ElementShortName">q_Dest[3:0]</obj_property>
+      <obj_property name="ObjectShortName">q_Dest[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/q_EXE_CMD" type="array">
+      <obj_property name="ElementShortName">q_EXE_CMD[3:0]</obj_property>
+      <obj_property name="ObjectShortName">q_EXE_CMD[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/q_src_1" type="array">
+      <obj_property name="ElementShortName">q_src_1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">q_src_1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/q_src_2" type="array">
+      <obj_property name="ElementShortName">q_src_2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">q_src_2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/q_Shift_operand" type="array">
+      <obj_property name="ElementShortName">q_Shift_operand[11:0]</obj_property>
+      <obj_property name="ObjectShortName">q_Shift_operand[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/q_Signed_imm_24" type="array">
+      <obj_property name="ElementShortName">q_Signed_imm_24[23:0]</obj_property>
+      <obj_property name="ObjectShortName">q_Signed_imm_24[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/q_Val_Rn" type="array">
+      <obj_property name="ElementShortName">q_Val_Rn[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_Val_Rn[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/q_Val_Rm" type="array">
+      <obj_property name="ElementShortName">q_Val_Rm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_Val_Rm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/freeze" type="logic">
+      <obj_property name="ElementShortName">freeze</obj_property>
+      <obj_property name="ObjectShortName">freeze</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/flush" type="logic">
+      <obj_property name="ElementShortName">flush</obj_property>
+      <obj_property name="ObjectShortName">flush</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/failures" type="array">
+      <obj_property name="ElementShortName">failures[31:0]</obj_property>
+      <obj_property name="ObjectShortName">failures[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/vector_index" type="array">
+      <obj_property name="ElementShortName">vector_index[31:0]</obj_property>
+      <obj_property name="ObjectShortName">vector_index[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ID_Stage/test_name" type="array">
+      <obj_property name="ElementShortName">test_name[255:0]</obj_property>
+      <obj_property name="ObjectShortName">test_name[255:0]</obj_property>
+   </wvobject>
+</wave_config>

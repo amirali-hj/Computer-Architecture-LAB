@@ -1,0 +1,13 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Computer-Architecture-LAB/Lab_1/src/EXE_Commands.vh,1793774792,verilog,,,,,,,,,,,,
+C:/Computer-Architecture-LAB/Lab_1/src/ID_EXE_Reg.v,1793774792,verilog,,C:/Computer-Architecture-LAB/Lab_1/src/ID_Stage.v,,ID_EXE_Reg,,,../../../../../,,,,,
+C:/Computer-Architecture-LAB/Lab_1/src/ID_Stage.v,1793774792,verilog,,C:/Computer-Architecture-LAB/Lab_1/src/MUX.v,,ID_Stage,,,../../../../../,,,,,
+C:/Computer-Architecture-LAB/Lab_1/src/MUX.v,1793774792,verilog,,C:/Computer-Architecture-LAB/Lab_1/src/RegisterFile.v,,MUX,,,../../../../../,,,,,
+C:/Computer-Architecture-LAB/Lab_1/src/RegisterFile.v,1793774792,verilog,,C:/Computer-Architecture-LAB/Lab_1/src/condition_Check.v,,RegisterFile,,,../../../../../,,,,,
+C:/Computer-Architecture-LAB/Lab_1/src/condition_Check.v,1793774792,verilog,,C:/Computer-Architecture-LAB/Lab_1/src/control_unit.v,,condition_Check,,,../../../../../,,,,,
+C:/Computer-Architecture-LAB/Lab_1/src/control_unit.v,1793774792,verilog,,C:/Computer-Architecture-LAB/Lab_1/src/tb_ID_Stage.v,C:/Computer-Architecture-LAB/Lab_1/src/EXE_Commands.vh,control_unit,,,../../../../../,,,,,
+C:/Computer-Architecture-LAB/Lab_1/src/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Computer-Architecture-LAB/Lab_1/src/tb_ID_Stage.v,1793779402,verilog,,,C:/Computer-Architecture-LAB/Lab_1/src/EXE_Commands.vh,tb_ID_Stage,,,../../../../../,,,,,
