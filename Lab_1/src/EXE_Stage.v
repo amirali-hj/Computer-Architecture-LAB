@@ -1,8 +1,8 @@
 module EXE_Stage (
     input clk, 
     input rst,
-    output [31:0] PC_in,
+    input [31:0] PC_in,
     output [31:0] PC
 );
-
+    assign PC = PC_in;
 endmodule 

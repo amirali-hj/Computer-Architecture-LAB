@@ -18,18 +18,14 @@ module ARM_FPGA_wrapper (
         .clk(clk), .rst(rst)
     );
 
-    ila_0 ila_inst (
-        .clk(clk),
-        .probe0(rst),
-        .probe1(ARM_inst.IF_pc),
-        .probe2(ARM_inst.ID_pc),
-        .probe3(ARM_inst.EXE_pc),
-        .probe4(ARM_inst.MEM_pc),
-        .probe5(ARM_inst.WB_pc),
-        .probe6(ARM_inst.IF_instruction),
-        .probe7(ARM_inst.ID_instruction),
-        .probe8(ARM_inst.EXE_instruction),
-        .probe9(ARM_inst.MEM_instruction),
-        .probe10(ARM_inst.WB_instruction)
-    );
+   ila_0 ila_inst (
+    .clk(clk),
+    .probe0(rst),
+    .probe1(ARM_inst.IF_pc),
+    .probe2(ARM_inst.IF_instruction),
+    .probe3(ARM_inst.ID_pc),
+    .probe4(ARM_inst.EXE_pc),
+    .probe5(ARM_inst.MEM_pc),
+    .probe6(ARM_inst.WB_pc)
+);
 endmodule

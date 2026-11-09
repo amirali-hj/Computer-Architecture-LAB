@@ -3,5 +3,13 @@ module IF_Stage_Reg (
     input [31:0] PC_in, Instruction_in,
     output reg [31:0] PC, Instruction
 );
-
+    always @(posedge clk or posedge rst) begin
+        if (rst) begin
+            PC <= 32'b0;
+            Instruction <= 32'b0;
+        end else begin
+            PC <= PC_in;
+            Instruction <= Instruction_in;
+        end
+    end
 endmodule
